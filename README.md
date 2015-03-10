@@ -5,6 +5,7 @@ PHPClient to work with through  [Gollos Rest API](https://gollos.com/).
 
 ## Requirements
 * PHP version >5.0
+* curl
 
 ## Available methods
 * `getProducts`, `addProducts`, `updateProducts`, `removeProducts`
