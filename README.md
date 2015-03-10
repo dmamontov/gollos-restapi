@@ -12,6 +12,7 @@ PHPClient to work with through  [Gollos Rest API](https://gollos.com/).
 * `getVendors`, `addVendors`, `updateVendors`, `removeVendors`
 * `getCustomers`, `addCustomers`, `updateCustomers`, `removeCustomers`
 * `getOrders`, `removeOrders`
+
 ## Examples of use
 
 ### Getting information about the order
