@@ -153,7 +153,6 @@ class GollosRestApi
             unset($arguments[0]);
         }
 
-        var_dump($url);die();
         return $this->curlRequest($url, $method, count($arguments) > 0 && is_array(reset($arguments)) ? reset($arguments) : null);
     }
 
