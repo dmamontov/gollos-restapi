@@ -168,9 +168,9 @@ class GollosRestApi
      */
     protected function curlRequest($url, $method = 'GET', $parameters, $timeout = 30, $format = 'json')
     {
-         if ($method == self::METHOD_GET && is_null($parameters) == false) {
-             $url .= '?'.http_build_query($parameters);
-         }
+        if ($method == self::METHOD_GET && is_null($parameters) == false) {
+            $url .= '?'.http_build_query($parameters);
+        }
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -191,7 +191,7 @@ class GollosRestApi
         } elseif (in_array($method, array(self::METHOD_PUT, self::METHOD_DELETE))) {
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
         }
-        
+
         if (is_null($parameters) === false && in_array($method, array(self::METHOD_POST, self::METHOD_PUT, self::METHOD_DELETE))) {
             curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
         }

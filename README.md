@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/dmamontov/gollos-restapi/v/stable.svg)](https://packagist.org/packages/dmamontov/agollos-restapi)
+[![License](https://poser.pugx.org/dmamontov/gollos-restapi/license.svg)](https://packagist.org/packages/dmamontov/gollos-restapi)
+[![Total Downloads](https://poser.pugx.org/dmamontov/gollos-restapi/downloads.svg)](https://packagist.org/packages/dmamontov/gollos-restapi)
+
 PHPClient to work with through Gollos Rest API
 ==============================================
 
@@ -13,6 +17,22 @@ PHPClient to work with through  [Gollos Rest API](https://gollos.com/).
 * `getVendors`, `addVendors`, `updateVendors`, `removeVendors`
 * `getCustomers`, `addCustomers`, `updateCustomers`, `removeCustomers`
 * `getOrders`, `removeOrders`
+
+## Installation
+
+1) Install [composer](https://getcomposer.org/download/)
+
+2) Follow in the project folder:
+```bash
+composer require dmamontov/gollos-restapi ~1.0.0
+```
+
+In config `composer.json` your project will be added to the library `dmamontov/gollos-restapi`, who settled in the folder `vendor/`. In the absence of a config file or folder with vendors they will be created.
+
+If before your project is not used `composer`, connect the startup file vendors. To do this, enter the code in the project:
+```php
+require 'path/to/vendor/autoload.php';
+```
 
 ## Examples of use
 
