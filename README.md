@@ -2,10 +2,14 @@
 [![License](https://poser.pugx.org/dmamontov/gollos-restapi/license.svg)](https://packagist.org/packages/dmamontov/gollos-restapi)
 [![Total Downloads](https://poser.pugx.org/dmamontov/gollos-restapi/downloads.svg)](https://packagist.org/packages/dmamontov/gollos-restapi)
 
-PHPClient to work with through Gollos Rest API
-==============================================
+Gollos Rest API Client
+======================
 
-PHPClient to work with through  [Gollos Rest API](https://gollos.com/).
+This class can eanage e-commerce operations using the [Gollos API](https://gollos.com/).
+
+It can send HTTP requests to the Gollos API Web server to perform several types of operations with customers, vendors, products, orders, etc..
+
+Currently it can retrieve, add, update and delete products, groups, customers, vendors, products and orders.
 
 ## Requirements
 * PHP version >5.0
